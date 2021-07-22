@@ -6,7 +6,6 @@ import api from '../../services/api';
 import logoImg from '../../assets/logo.svg';
 
 import { Header, RepositoryInfo, Issues } from './styles';
-import { number, string } from 'yargs';
 
 interface RepositoryParams {
     repository: string;
